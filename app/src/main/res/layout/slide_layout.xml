@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/slide_image"
+        android:layout_width="284dp"
+        android:layout_height="348dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/fingergif" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/bio_gif"
+        android:layout_width="151dp"
+        android:layout_height="208dp"
+        android:layout_alignStart="@+id/slide_heading"
+        android:layout_alignTop="@+id/slide_image"
+        app:srcCompat="@drawable/biogif" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/nonbio_gif"
+        android:layout_width="151dp"
+        android:layout_height="208dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/bio_gif"
+        android:layout_marginEnd="44dp"
+        app:srcCompat="@drawable/nonbiogif" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/plus_gif"
+        android:layout_width="96dp"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/slide_image"
+        android:layout_marginBottom="172dp"
+        app:srcCompat="@drawable/plusgif" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/bomb_gif"
+        android:layout_width="104dp"
+        android:layout_height="93dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="146dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/bombaf" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/heart_gif"
+        android:layout_width="96dp"
+        android:layout_height="79dp"
+        android:layout_alignEnd="@+id/slide_image"
+        android:layout_alignTop="@+id/plus_gif"
+        app:srcCompat="@drawable/heartgifff" />
+
+
+    <ImageView
+        android:id="@+id/ins_points"
+        android:layout_width="129dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/bio_gif"
+        android:layout_marginBottom="131dp"
+        android:src="@drawable/ins3" />
+
+    <ImageView
+        android:id="@+id/ins_life"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:layout_alignEnd="@+id/slide_heading"
+        android:layout_alignTop="@+id/ins_points"
+        android:src="@drawable/ins4" />
+
+
+    <ImageView
+        android:id="@+id/ins_over"
+        android:layout_width="129dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="254dp"
+        android:src="@drawable/ins5" />
+
+
+    <ImageView
+        android:id="@+id/slide_heading"
+        android:layout_width="334dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/howtoplayy" />
+
+    <ImageView
+        android:id="@+id/slide_desc"
+        android:layout_width="241dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:src="@drawable/ins1" />
+
+</RelativeLayout>

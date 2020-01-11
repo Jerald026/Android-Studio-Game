@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4C3"
+    tools:context=".SplashScreen">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifSplash"
+        android:layout_width="320dp"
+        android:layout_height="471dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cityyy" />
+
+</RelativeLayout>

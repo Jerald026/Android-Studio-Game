@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainAchieve">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="384dp"
+        android:layout_height="274dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints">
+
+        <fragment
+            android:id="@+id/buttonFrag"
+            android:name="com.example.hp.junscape.ButtonFrag"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_button"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <fragment
+            android:id="@+id/carInfoFrag"
+            android:name="com.example.hp.junscape.TrashInfoFrag"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="2dp"
+            tools:layout="@layout/fragment_trash_info"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="97dp" />
+
+        <fragment
+            android:id="@+id/ownerInfoFrag"
+            android:name="com.example.hp.junscape.DisposeInfoFrag"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            tools:layout="@layout/fragment_dispose_info"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="240dp" />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/listFrag"
+        android:name="com.example.hp.junscape.ListFrag"
+        android:layout_width="383dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/fragment_list"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>

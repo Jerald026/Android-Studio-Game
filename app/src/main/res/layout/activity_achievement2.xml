@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Achievement2">
+
+    <ImageView
+        android:id="@+id/banana1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/earth" />
+
+    <ImageView
+        android:id="@+id/can2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/banana1"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/earth" />
+
+    <ImageView
+        android:id="@+id/fish3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/banana1"
+        android:layout_marginEnd="31dp"
+        app:srcCompat="@drawable/earth" />
+
+    <LinearLayout
+        android:id="@+id/layoutDesc"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/bananaDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:srcCompat="@drawable/areyou" />
+    </LinearLayout>
+
+</RelativeLayout>
